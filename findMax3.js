@@ -16,10 +16,14 @@ function getMax(num1, num2, num3) {
     return num1;
   } else if (num2 > num1 && num2 > num3) {
     return num2;
-  } else {
-    return num3;
   }
+  return num3;
 }
 
 const findMax = getMax(10, 20, 40);
 console.log(findMax);
+
+const max = Math.max(10, 80, 74, 25, 3, 85);
+const min = Math.min(10, 80, 74, 25, 3, 85);
+console.log(max);
+console.log(min);
